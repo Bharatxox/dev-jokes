@@ -129,7 +129,8 @@ Plaintext
 ┣ 📂 bin
 ┃ ┗ 📜 dev-jokes.js
 ┣ 📜 index.js
-┣ 📜 jokes.js
 ┣ 📜 package.json
 ┗ 📜 README.md
 ```
+
+Enjoy the laughs and keep coding happily! 😄
