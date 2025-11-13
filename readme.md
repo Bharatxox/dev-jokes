@@ -1,12 +1,15 @@
 # 😂 Dad Jokes CLI
 
-A simple and fun command-line tool that delivers random dad jokes straight to your terminal — because debugging is easier when you’re laughing! 🤣
+A simple and fun command-line tool that delivers random dad jokes straight to your terminal --- because debugging is easier when you're laughing! 🤣
 
 ## 🚀 Features
 
 - Get a random dad joke instantly
-- Show multiple jokes with --count
+
+- Show multiple jokes with `--count`
+
 - Display help or version info
+
 - Lightweight, fast, and works offline
 
 ## 📦 Installation
@@ -15,28 +18,67 @@ Install globally using npm:
 
 Bash
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML` npm install -g dev-jokes `
+```
+npm install -g dev-jokes
 
-Replace dev-jokes with your actual npm package name if different.
+```
+
+Replace `dev-jokes` with your actual npm package name if different.
 
 ## 🧠 Usage & Examples
 
 Here are the available commands:
 
-- Bashdev-jokes
-- Bashdev-jokes --count 5
-- Bashdev-jokes --help
-- Bashdev-jokes --version
+- **Show a random joke:**
+
+  Bash
+
+  ```
+  dev-jokes
+
+  ```
+
+- **Show 5 random jokes:**
+
+  Bash
+
+  ```
+  dev-jokes --count 5
+
+  ```
+
+- **Get help information:**
+
+  Bash
+
+  ```
+  dev-jokes --help
+
+  ```
+
+- **Show current version:**
+
+  Bash
+
+  ```
+  dev-jokes --version
+
+  ```
 
 ## 💻 Example Output
 
 A single joke:
 
-> Why did the scarecrow win an award?Because he was outstanding in his field! 🌾
+> Why did the scarecrow win an award? Because he was outstanding in his field! 🌾
 
-Multiple jokes (--count 3):
+Multiple jokes (`--count 3`):
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML` 1️⃣ I told my wife she should embrace her mistakes… She gave me a hug.  2️⃣ Why don’t skeletons fight each other? They don’t have the guts.  3️⃣ I would tell you a construction joke, but I’m still working on it. `
+```
+1️⃣ I told my wife she should embrace her mistakes... She gave me a hug.
+2️⃣ Why don't skeletons fight each other? They don't have the guts.
+3️⃣ I would tell you a construction joke, but I'm still working on it.
+
+```
 
 ## 🧰 Local Development
 
@@ -46,30 +88,48 @@ Clone the repository
 
 Bash
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML` git clone https://github.com/your-username/dev-jokes.git `
+```
+git clone https://github.com/your-username/dev-jokes.git
+
+```
 
 Navigate into the folder
 
 Bash
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML` cd dev-jokes `
+```
+cd dev-jokes
+
+```
 
 Install dependencies
 
 Bash
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML` npm install `
+```
+npm install
+
+```
 
 Run locally
 
 Bash
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML` node index.js `
+```
+node index.js
+
+```
 
 ## 🏗️ Project Structure
 
 Plaintext
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML` 📦 dev-jokes  ┣ 📂 bin  ┃ ┗ 📜 dev-jokes.js  ┣ 📜 index.js  ┣ 📜 jokes.js  ┣ 📜 package.json  ┗ 📜 README.md `
-
-Enjoy the laughs and keep coding happily! 😄
+```
+📦 dev-jokes
+┣ 📂 bin
+┃ ┗ 📜 dev-jokes.js
+┣ 📜 index.js
+┣ 📜 jokes.js
+┣ 📜 package.json
+┗ 📜 README.md
+```
