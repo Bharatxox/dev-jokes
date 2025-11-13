@@ -89,7 +89,7 @@ Clone the repository
 Bash
 
 ```
-git clone https://github.com/your-username/dev-jokes.git
+git clone https://github.com/bharatxox/dev-jokes.git
 
 ```
 
